@@ -1,0 +1,36 @@
+{
+    "users": {
+        "data": [
+            {
+                "name": "Barath C",
+                "customer_id": 1,
+                "password": "78_84_69_105_112_111_106_49_49_56",
+                "account_number": "6435185377",
+                "balance": 21000,
+                "transactions_performed": 0
+            },
+            {
+                "name": "Barath CC",
+                "customer_id": 2,
+                "password": "78_84_69_105_112_111_106_49_49_56",
+                "account_number": "8477661937",
+                "balance": 1000,
+                "transactions_performed": 0
+            }
+        ],
+        "last_customer_id": 2
+    },
+    "transactions": {
+        "data": [
+            { "id": 1, "type": 2, "user_id": 1, "amount": 10000, "balance": 11000 },
+            { "id": 1, "type": 2, "user_id": 2, "amount": 5000, "balance": 6000 },
+            { "id": 1, "type": 2, "user_id": 2, "amount": 2000, "balance": 3000 },
+            { "id": 1, "type": 3, "user_id": 2, "amount": 2000, "balance": 3000 },
+            { "id": 1, "type": 3, "user_id": 2, "amount": 1000, "balance": 4000 },
+            { "id": 1, "type": 3, "user_id": 2, "amount": 1000, "balance": 4000 },
+            { "id": 1, "type": 3, "user_id": 2, "amount": 1000, "balance": 4000 },
+            { "id": 1, "type": 3, "user_id": 2, "amount": 4000, "balance": 1000 }
+        ],
+        "last_transaction_id": 0
+    }
+}
